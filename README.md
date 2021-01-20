@@ -1,5 +1,8 @@
 # [Traccar](https://www.traccar.org)
 
+##Status of azure build
+[![Build Status](https://dev.azure.com/chris0824/Traccar-Cont-dev%20test/_apis/build/status/bloodygoodbloke.traccar?branchName=azure-pipelines)](https://dev.azure.com/chris0824/Traccar-Cont-dev%20test/_build/latest?definitionId=2&branchName=azure-pipelines)
+
 ## Overview
 
 Traccar is an open source GPS tracking system. This repository contains Java-based back-end service. It supports more than 170 GPS protocols and more than 1500 models of GPS tracking devices. Traccar can be used with any major SQL database system. It also provides easy to use [REST API](https://www.traccar.org/traccar-api/).
