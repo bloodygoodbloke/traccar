@@ -26,14 +26,14 @@
 	<entry key='mail.smtp.host'>smtp.gmail.com</entry>
 	<entry key='mail.smtp.port'>465</entry>
 	<entry key='mail.smtp.ssl.enable'>true</entry>
-	<entry key='mail.smtp.from'>scotsbloke72@gmail.com</entry>
+	<entry key='mail.smtp.from'>gmail.com</entry>
 	<entry key='mail.smtp.auth'>true</entry>
-	<entry key='mail.smtp.username'>scotsbloke72@gmail.com</entry>
+	<entry key='mail.smtp.username'>gmail.com</entry>
 	<entry key='mail.smtp.password'>fmyonaqdqxoolise</entry>
 	<!-- Geocoder -->
 	<entry key='geocoder.enable'>true</entry>
 	<entry key='geocoder.type'>google</entry>
-	<entry key='geocoder.key'>AIzaSyBvTq4fmHQZfBS_aeBp6puj6P9VpF7uIXc</entry>
+	<entry key='geocoder.key'>APIKEYMISSING</entry>
 	<entry key='geocoder.onRequest'>true</entry>
 	<entry key='geocoder.ignorePositions'>true</entry>
 	<entry key='geocoder.reuseDistance'>250</entry>
@@ -46,5 +46,5 @@
 	<entry key='event.enable'>true</entry>
 	<!--PUSH NOTIFICATIONS -->
 	<entry key='notificator.types'>web,mail,traccar</entry>
-	<entry key='notificator.traccar.key'>eyJkYXRhIjoxOTA5Nn0uaVUza0VQV2FqSjUrb0xMaHNjbmdTL0oranRyTDhIeFhSUjdENGhkNElQdw</entry>
+	<entry key='notificator.traccar.key'>APIKEYMISSING/entry>
 </properties>
