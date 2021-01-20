@@ -2,7 +2,7 @@
 
 ## Status of azure-pipelines build
 
-[![Build Status](https://dev.azure.com/chris0824/Traccar-Cont-dev%20test/_apis/build/status/bloodygoodbloke.traccar?branchName=azure-pipelines)](https://dev.azure.com/chris0824/Traccar-Cont-dev%20test/_build/latest?definitionId=2&branchName=azure-pipelines)
+[![Build Status](https://dev.azure.com/chris0824/Traccar-Cont-dev%20test/_apis/build/status/bloodygoodbloke.traccar-CJM?branchName=master)](https://dev.azure.com/chris0824/Traccar-Cont-dev%20test/_build/latest?definitionId=3&branchName=master)
 
 ## Overview
 
