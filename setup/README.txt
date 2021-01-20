@@ -1,12 +1,51 @@
-Traccar is a free and open source GPS tracking system.
+<?xml version='1.0' encoding='UTF-8'?>
 
-Installation instructions are available on the official website:
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
 
-Windows - https://www.traccar.org/windows/
-Linux   - https://www.traccar.org/linux/
-Docker  - https://www.traccar.org/docker/
-Other   - https://www.traccar.org/manual-installation/
+<properties>
 
-If you have any questions or problems visit support page:
+    <entry key='config.default'>./conf/default.xml</entry>
 
-https://www.traccar.org/support/
+    <!--
+
+    This is the main configuration file. All your configuration parameters should be placed in this file.
+
+    Default configuration parameters are located in the "default.xml" file. You should not modify it to avoid issues
+    with upgrading to a new version. Parameters in the main config file override values in the default file. Do not
+    remove "config.default" parameter from this file unless you know what you are doing.
+
+    For list of available parameters see following page: https://www.traccar.org/configuration-file/
+
+    -->
+	<!-- DB Settings -->
+    <entry key='database.driver'>org.h2.Driver</entry>
+    <entry key='database.url'>jdbc:h2:./data/database</entry>
+    <entry key='database.user'>sa</entry>
+    <entry key='database.password'></entry>
+	<!-- Email Settings -->
+	<entry key='mail.smtp.host'>smtp.gmail.com</entry>
+	<entry key='mail.smtp.port'>465</entry>
+	<entry key='mail.smtp.ssl.enable'>true</entry>
+	<entry key='mail.smtp.from'>scotsbloke72@gmail.com</entry>
+	<entry key='mail.smtp.auth'>true</entry>
+	<entry key='mail.smtp.username'>scotsbloke72@gmail.com</entry>
+	<entry key='mail.smtp.password'>fmyonaqdqxoolise</entry>
+	<!-- Geocoder -->
+	<entry key='geocoder.enable'>true</entry>
+	<entry key='geocoder.type'>google</entry>
+	<entry key='geocoder.key'>AIzaSyBvTq4fmHQZfBS_aeBp6puj6P9VpF7uIXc</entry>
+	<entry key='geocoder.onRequest'>true</entry>
+	<entry key='geocoder.ignorePositions'>true</entry>
+	<entry key='geocoder.reuseDistance'>250</entry>
+	<!--Timeout-->
+	<entry key='minifinder.timeout'>1800</entry>
+	<entry key='status.timeout'>1800</entry>
+	<!--WEBURL -->
+	<entry key='web.url'>http://traccar.mcewanfamily.co.uk:8082</entry>
+	<!-- EVENTSLOG -->
+	<entry key='event.enable'>true</entry>
+	<!--PUSH NOTIFICATIONS -->
+	<entry key='notificator.types'>web,mail,traccar</entry>
+	<entry key='notificator.traccar.key'>eyJkYXRhIjoxOTA5Nn0uaVUza0VQV2FqSjUrb0xMaHNjbmdTL0oranRyTDhIeFhSUjdENGhkNElQdw</entry>
+</properties>
+
