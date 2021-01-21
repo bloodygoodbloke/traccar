@@ -28,12 +28,12 @@
 	<entry key='mail.smtp.ssl.enable'>true</entry>
 	<entry key='mail.smtp.from'>gmail.com</entry>
 	<entry key='mail.smtp.auth'>true</entry>
-	<entry key='mail.smtp.username'>gmail.com</entry>
-	<entry key='mail.smtp.password'>fmyonaqdqxoolise</entry>
+	<entry key='mail.smtp.username'>$EmailUserSB</entry>
+	<entry key='mail.smtp.password'>$GmailPassSB</entry>
 	<!-- Geocoder -->
 	<entry key='geocoder.enable'>true</entry>
 	<entry key='geocoder.type'>google</entry>
-	<entry key='geocoder.key'>APIKEYMISSING</entry>
+	<entry key='geocoder.key'>GoogleGeoAPIkey</entry>
 	<entry key='geocoder.onRequest'>true</entry>
 	<entry key='geocoder.ignorePositions'>true</entry>
 	<entry key='geocoder.reuseDistance'>250</entry>
@@ -46,5 +46,5 @@
 	<entry key='event.enable'>true</entry>
 	<!--PUSH NOTIFICATIONS -->
 	<entry key='notificator.types'>web,mail,traccar</entry>
-	<entry key='notificator.traccar.key'>APIKEYMISSING/entry>
+	<entry key='notificator.traccar.key'>$PushNotificationsAPIkey</entry>
 </properties>
